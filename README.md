@@ -45,7 +45,26 @@ Execute o comando abaixo no terminal para garantir que tudo esteja atualizado e 
   ```
   code ~/.zshrc
   ```
+  ### Adicionando Plugins
+
+  Navegue no seu terminal para o diretorio **~/.oh-my-zsh/custom/plugins**.
+
+  ```
+  cd ~/.oh-my-zsh/custom/plugins
+  ```
   
+  Dentro do diretorio rode o comando abaixo para clonar os plugins necessarios:
+  ``` 
+  git clone https://github.com/zsh-users/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-history-substring-search
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting
+  ``` 
+
+  Recarregue o arquivo de shell
+
+  ``` 
+  source ~/.zshrc
+  ```
 ## 🚀 Instalando as fontes
 
 Siga os passos abaixo para instalar as fontes no seu usuário local:

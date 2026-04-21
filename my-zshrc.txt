@@ -66,6 +66,12 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:~/android-studio/bin
 
+#===============================
+# POXIM
+#===============================
+
+export POXIM_V_ROOT=~/mypoxim-v
+
 # ==============================
 # ALIASES ÚTEIS
 # ==============================
@@ -81,6 +87,16 @@ alias ga="git add ."
 alias gc="git commit -m"
 alias gp="git push"
 alias gl="git pull"
+alias gch="git checkout"
+
+# React Native init alias
+
+alias rn="npx @react-native-community/cli@latest"
+
+# Docker runner command
+alias dockon='sudo systemctl start docker && echo "Docker iniciado 🚀"'
+alias dockoff='sudo systemctl stop docker && echo "Docker parado 🛑"'
+alias dockstatus='systemctl status docker --no-pager'
 
 # ==============================
 # HISTÓRICO MELHORADO
@@ -98,3 +114,5 @@ setopt HIST_REDUCE_BLANKS
 
 DISABLE_AUTO_UPDATE="true"
 DISABLE_UPDATE_PROMPT="true"
+
+

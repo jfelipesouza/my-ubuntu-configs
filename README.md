@@ -23,7 +23,6 @@ Execute o comando abaixo no terminal para garantir que tudo esteja atualizado e 
   - Instale o Oh My Zsh:
   ```bash
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
   ```
   - Instale o tema desejado, nesse caso irei instalar o spaceship:
   ```bash

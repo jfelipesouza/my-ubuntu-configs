@@ -112,8 +112,14 @@ Após a instalação, as fontes estarão disponíveis em qualquer aplicativo (VS
 
 ---
 
+## Adicional
+Caso tenha problema com o controle do brilho execute no terminal
+ ```bash
+ sudo kernelstub -a "acpi_backlight=native"
+ ```
+
 ## 💬 Informações
 
 🛠️ **Autor:** João Felipe de Oliveira Souza
-📅 **Versão:** 2.0 (Local Edition)
+📅 **Versão:** 2.1 (Local Edition)
 📄 **Licença:** MIT

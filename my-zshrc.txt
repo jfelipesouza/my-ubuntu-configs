@@ -115,4 +115,8 @@ setopt HIST_REDUCE_BLANKS
 DISABLE_AUTO_UPDATE="true"
 DISABLE_UPDATE_PROMPT="true"
 
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
+
 
